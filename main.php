@@ -2,7 +2,7 @@
 /*
 Plugin Name: Simple Maintenance2
 Version: 1.0.3
-Plugin URI: https://wphowto.net/simple-maintenance-plugin-wordpress-595 
+Plugin URI: https://github.com/furkun/simple-maintenance2
 Author: Furkun
 Author URI: https://github.com/furkun
 Description: Modified and simplified version of <a href="https://wordpress.org/plugins/simple-maintenance/">Simple Maintenance</a> plugin.
