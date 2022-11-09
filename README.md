@@ -1,4 +1,4 @@
-# Simple Maintenance2
+# Very Simple Maintenance
 Modified and simplified version of [Simple Maintenance](https://wordpress.org/plugins/simple-maintenance/) plugin.
 
-![Simple Maintenance2](https://i.ibb.co/zR4HJQG/image.png)
+![Very Simple Maintenance](https://i.ibb.co/zR4HJQG/image.png)
