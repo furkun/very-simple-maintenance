@@ -32,6 +32,10 @@ function plugin_includes()
 add_action('plugins_loaded', array($this, 'plugins_loaded_handler'));
 add_action('template_redirect', array($this, 'sm_template_redirect'));
 }
+function plugins_loaded_handler()
+{
+load_plugin_textdomain('very-simple-maintenance', false, dirname( plugin_basename( __FILE__ ) ) ); 
+}
 function plugin_url()
 {
 if($this->plugin_url) return $this->plugin_url;
