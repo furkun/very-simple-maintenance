@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: Simple Maintenance2
+Plugin Name: Very Simple Maintenance
 Version: 1.0.3
-Plugin URI: https://github.com/furkun/simple-maintenance2
-Author: Furkun
+Plugin URI: https://github.com/furkun/very-simple-maintenance
+Author: Furkan Uysal
 Author URI: https://github.com/furkun
 Description: Modified and simplified version of <a href="https://wordpress.org/plugins/simple-maintenance/">Simple Maintenance</a> plugin.
-Text Domain: simple-maintenance2
+Text Domain: very-simple-maintenance
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
@@ -29,6 +29,7 @@ $this->plugin_includes();
 }
 function plugin_includes()
 {
+add_action('plugins_loaded', array($this, 'plugins_loaded_handler'));
 add_action('template_redirect', array($this, 'sm_template_redirect'));
 }
 function plugin_url()
@@ -45,7 +46,8 @@ return in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-register.php'));
 }
 function sm_template_redirect()
 {
-if(is_user_logged_in()){}
+if(is_user_logged_in()){
+}
 else
 {
 if( !is_admin() && !$this->is_valid_page()){
