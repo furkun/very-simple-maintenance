@@ -13,7 +13,7 @@
 <h1>Maintenance Mode</h1>
 <p>Our website is currently undergoing scheduled maintenance.</p>
 <p>Please try back again soon.</p>
-<p>Sorry for the inconvenience.</p>			
+<p>Sorry for the inconvenience.</p>            
 </div>
 </body>
 </html>
